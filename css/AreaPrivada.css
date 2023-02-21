@@ -1,0 +1,12 @@
+.container_area-privada {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: black;
+}
+.container_area-privada .display-info {
+  margin: 1rem auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}

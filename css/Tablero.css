@@ -1,0 +1,68 @@
+.dashboard {
+  background-color: rgba(218, 223, 223, 0.979);
+  margin-left: 1rem;
+  width: 95%;
+  overflow: scroll;
+}
+.dashboard .title-dashboard {
+  width: 100%;
+  background-color: #fff;
+  height: 3rem;
+  height: 4rem;
+}
+.dashboard .title-dashboard .dash {
+  color: rgb(85, 85, 94);
+  margin-left: 1rem;
+  padding-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.dashboard .estadisticas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.dashboard .estadisticas .box-data {
+  background-color: #fff;
+  width: 90%;
+  height: 14rem;
+  margin: 1rem auto;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  align-items: center;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 12px 12px 7px -4px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 12px 12px 7px -4px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 12px 12px 7px -4px rgba(0, 0, 0, 0.19);
+}
+.dashboard .estadisticas .box-data .dato {
+  font-size: 1.5rem;
+  width: 95%;
+  color: black;
+  text-align: start;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+.dashboard .estadisticas .box-data .total {
+  font-weight: 500;
+  font-size: 1.7rem;
+  width: 95%;
+}
+.dashboard .estadisticas .box-data .porcentaje {
+  font-size: 1.4rem;
+  color: rgb(8, 160, 8);
+  width: 95%;
+  text-align: start;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.dashboard .estadisticas .box-data .description {
+  font-size: 1.2rem;
+  width: 95%;
+  text-align: start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
